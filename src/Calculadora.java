@@ -47,8 +47,8 @@ public class Calculadora
     void setupFrame() 
     {
         frame.setResizable(false);
-        frame.setLocationRelativeTo(null);
         frame.setSize(boardWidth, boardHeight);
+        frame.setLocationRelativeTo(null);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setLayout(new BorderLayout());
     }
